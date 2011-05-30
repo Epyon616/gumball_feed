@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Transistional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="Author" content="Developed by StealthyGecko &copy; 2011" />
+  <%= stylesheet_link_tag "/stylesheets/reset.css","/stylesheets/fonts.css", "/stylesheets/layout.css" %>
+  <%= javascript_script_tag "/javascripts/jquery.min.js", "/javascripts/jquery-ui.min.js", "/javascripts/application.js" %>
+  <title><%= @title %></title>
+</head>
+<body>
+  <div id="header">
+    <h1><%= @title %><%= image_tag "/images/gumball.png", :class => "logo" %></h1>
+  </div>
+  <div id="container">
+    <%= yield %>
+  </div>
+  <div id="footer">
+    Copyright &copy; 2011 <a href="http://stealthygecko.heroku.com" target="_blank">StealthyGecko</a>
+  </div>
+</body>
+</html>

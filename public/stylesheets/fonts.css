@@ -1,0 +1,32 @@
+@font-face {
+    font-family:                   Superstar;
+    src:                           url('../fonts/Superstar.ttf');
+    font-style:                    normal;
+}
+strong{
+    font-weight:                   bold;
+}
+a{
+    color:                         rgba(150,150,150,1);
+    text-decoration:               none;
+    transition:                    all 0.15s ease-in-out;
+    -moz-transition:               all 0.15s ease-in-out;
+    -webkit-transition:            all 0.15s ease-in-out;
+}
+a:hover{
+    color:                         rgba(0,200,255,1);
+}
+body{
+    font-family:                   Arial;
+    color:                         rgba(0,0,0,0.7);
+    font-size:                     1em;
+}
+h1{
+    letter-spacing:                -1px;
+    font-family:                   "Superstar";
+    font-size:                     110px;
+    font-weight:                   bold;
+    color:                         rgba(0,0,0, 0.6);
+    vertical-align:                top;
+    text-shadow:                   1px 1px 3px rgba(0,0,0,0.5);
+}
