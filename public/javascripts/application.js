@@ -14,5 +14,5 @@ $(document).ready(function(){
 
             }
         })
-    }, 120000)
+    }, 300000)
 })

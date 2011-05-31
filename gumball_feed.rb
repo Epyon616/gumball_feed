@@ -11,8 +11,11 @@ before do
   @hashtags = @search.hashtag("Gumball3000").language("en").no_retweets
 end
 
-helpers do
-end 
+# helpers do
+#   def parse_text(text)
+#     tweet = text
+#   end
+# end 
 
 get "/" do
   
