@@ -1,13 +1,18 @@
-// Drop down navigation
-$(document).ready(function () {	    
-    $('#navigation li').hover(
-	function () {
-	    //show its submenu
-	    $('ul', this).slideDown(100);
-	}, 
-	function () {
-	    //hide its submenu
-	    $('ul', this).slideUp(100);			
-	}
-    );
-});
+$(document).ready(function(){
+    setInterval(function(){
+        $.ajax({
+            url: '/fresh_data',
+            success: function(data){
+
+                $(data).insertAfter('ul').hide();
+                $('ul:visible').addClass('original');
+                $('.original').fadeOut("slow", function(){
+                    $('ul:not(.original)').fadeIn("slow", function(){
+                        $('.original').remove();
+                    })
+                })
+
+            }
+        })
+    }, 120000)
+})
