@@ -9,9 +9,9 @@ strong{
 a{
     color:                         rgba(150,150,150,1);
     text-decoration:               none;
-    transition:                    all 0.15s ease-in-out;
-    -moz-transition:               all 0.15s ease-in-out;
-    -webkit-transition:            all 0.15s ease-in-out;
+    transition:                    all 0.25s ease-in-out;
+    -moz-transition:               all 0.25s ease-in-out;
+    -webkit-transition:            all 0.25s ease-in-out;
 }
 a:hover{
     color:                         rgba(0,200,255,1);

@@ -1,48 +1,58 @@
 body{
-    background:            url(../images/bg.png) repeat-x rgba(255,255,255, 1);
-    background-position:   0 0;
-    background-attachment: fixed;
+    background:             url(../images/bg.png) repeat-x rgba(255,255,255, 1);
+    background-position:    0 0;
+    background-attachment:  fixed;
 }
 #header{
-    width:                 100%;
-    border-bottom:         1px solid rgba(0,0,0,0.5);
-    margin-bottom:         10px;
-    text-align:            center;
-    background:            rgba(255,255,255,1);
-    position:              fixed;
-    margin:                0;
+    width:                  100%;
+    border-bottom:          1px solid rgba(0,0,0,0.5);
+    margin-bottom:          10px;
+    text-align:             center;
+    background:             rgba(255,255,255,1);
+    position:               fixed;
+    margin:                 0;
 }
 #container{
-    width:                 960px;
-    height:                auto;
-    padding-top:           140px;
-    margin:                0 auto;
+    width:                  960px;
+    height:                 auto;
+    padding-top:            140px;
+    margin:                 0 auto;
 }
 #container li{
-    border-bottom:         1px solid rgba(0,0,0,0.3);
-    padding:               5px;
-    height:                auto;
-    overflow:              hidden;
-    margin-bottom:         15px;
+    border-bottom:          1px solid rgba(0,0,0,0.3);
+    padding:                5px;
+    height:                 auto;
+    overflow:               hidden;
+    margin-bottom:          15px;
 }
 #container li .avatar{
-    width:                 50px;
-    height:                50px;
-    float:                 left;
-    display:               block;
+    width:                  50px;
+    height:                 50px;
+    float:                  left;
+    display:                block;
 }
 #container li .tweet{
-    float:                 right;
-    display:               block;
-    width:                 890px;
+    float:                  right;
+    display:                block;
+    width:                  890px;
 }
 #footer{
-    font-size:             0.7em;
-    width:                 960px;
-    height:                30px;
-    margin:                0 auto;
-    text-align:            center;
+    font-size:              0.7em;
+    width:                  960px;
+    height:                 30px;
+    margin:                 0 auto;
+    text-align:             center;
 }
 .logo {
-    height:                100px;
+    height:                 100px;
+}
+.foot_logo{
+    height:                 30px;
+    opacity:                0.7;
+    transition:             all 0.25s ease-in-out;
+    -moz-transition:        all 0.25s ease-in-out;
+    -webkit-transition:     all 0.25s ease-in-out;
+}
+.foot_logo:hover{
+    opacity:                1;
 }

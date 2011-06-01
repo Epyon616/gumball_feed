@@ -17,4 +17,7 @@ helpers do
     return parsed_text
   end
 
+  def formatted_date(date)
+   date.gsub("+0000", "")
+  end
 end 

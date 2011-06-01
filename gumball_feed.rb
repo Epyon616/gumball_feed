@@ -2,6 +2,7 @@ require 'rubygems'
 require 'sinatra'
 require 'sinatra/static_assets'
 require 'twitter'
+require 'date'
 
 require File.expand_path(File.join(%w{ . lib/helpers.rb}))
 

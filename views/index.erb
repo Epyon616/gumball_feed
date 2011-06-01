@@ -10,7 +10,7 @@
           <%= item.from_user %>
        </a>
     </strong>
-     <%= item.created_at %>
+     <%= formatted_date(item.created_at) %>
     <p>
      <%= parse_text(item.text) %>
     </p> 
