@@ -1,4 +1,12 @@
-require File.expand_path(File.join(%w{ . gumball_feed.rb}))
+require 'rubygems'
+require 'vendor/sinatra-1.3.2/lib/sinatra.rb'
+require 'vendor/rack-1.4.1/lib/rack.rb'
+Sinatra::Base.set(
+  :run => false,
+  :env => :production
+)
+
+require 'gumball_feed.rb'
 run Sinatra::Application
 
 FileUtils.mkdir_p 'log' unless File.exists?('log')

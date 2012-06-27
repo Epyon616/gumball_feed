@@ -3,7 +3,8 @@ source 'http://rubygems.org'
 gem 'sinatra'
 gem 'sinatra-static-assets'
 gem 'twitter'
-gem 'shotgun'
+gem 'capistrano'
+gem 'capistrano-ext'
 
 group :test do
   gem 'rspec'
