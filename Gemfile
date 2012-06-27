@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'sinatra'
 gem 'sinatra-static-assets'
-gem 'twitter'
+gem 'twitter', '1.4.0'
 gem 'capistrano'
 gem 'capistrano-ext'
 
