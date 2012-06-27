@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'vendor/sinatra-1.3.2/lib/sinatra.rb'
 require 'vendor/rack-1.4.1/lib/rack.rb'
-require 'vendor/twitter-1.4.0/lib/twitter.rb'
 
 Sinatra::Base.set(
   :run => false,
