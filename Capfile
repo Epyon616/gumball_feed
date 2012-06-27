@@ -4,7 +4,7 @@ default_run_options[:pty] = true
 
 # be sure to change these
 set :user, 'geckorichmond'
-set :website, "gumball_feed.stealthygecko.com"
+set :website, "gumballfeed.stealthygecko.com"
 set :domain, '208.113.235.4'
 set :application, 'gumball_feed'
 
