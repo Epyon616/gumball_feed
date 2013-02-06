@@ -1,10 +1,5 @@
 require 'rubygems'
 
-Sinatra::Base.set(
-  :run => false,
-  :env => :production
-)
-
 require 'gumball_feed.rb'
 run Sinatra::Application
 
