@@ -1,6 +1,7 @@
 require 'rubygems'
+require 'sinatra'
+require './gumball_feed'
 
-require 'gumball_feed.rb'
 run Sinatra::Application
 
 FileUtils.mkdir_p 'log' unless File.exists?('log')
