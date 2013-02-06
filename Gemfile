@@ -2,9 +2,7 @@ source 'http://rubygems.org'
 
 gem 'sinatra'
 gem 'sinatra-static-assets'
-gem 'twitter', '1.4.0'
-gem 'capistrano'
-gem 'capistrano-ext'
+gem 'twitter'
 
 group :test do
   gem 'rspec'
